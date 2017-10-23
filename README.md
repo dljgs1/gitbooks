@@ -1,3 +1,4 @@
-# My Awesome Book
+# 序章
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+星海里的失落灵魂，在梦的最深处相遇。
+
