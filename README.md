@@ -3,5 +3,5 @@
 
 
 
-* [魂行者日记](chapter1.md)
+* [魂行者日记](HXZRJ/README.md)
 * [A new kind of science 中文翻译](ANKS/README.md)
