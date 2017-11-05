@@ -7,8 +7,8 @@
 
 ## [调研]()
 
-- [文献翻译](MLsecurity\paper_MLmodelRemembertoomuch.md)
+- [文献翻译](paper_MLmodelRemembertoomuch.md)
 
-- [思想概述](MLsecurity\overview.md)
+- [思想概述](overview.md)
 
 
