@@ -5,10 +5,8 @@
 ***
 2017.11
 
-## [调研]()
 
-- [文献翻译](paper_MLmodelRemembertoomuch.md)
+- [文献翻译](chp1.md)
 
-- [思想概述](overview.md)
 
 

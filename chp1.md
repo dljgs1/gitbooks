@@ -1,9 +1,8 @@
-## 对机器学习中存在的安全性问题的探究
 
-11.5~
+机器学习中存在的安全性问题的探究：
 
-前期工作：
+- [ML model that Remember too much](paper_MLmodelRemembertoomuch.md)
 
-- [翻译文献](paper_MLmodelRemembertoomuch.md)
+快速的第一阶段候选人生成
 
-- [思想综述](overview.md)
+- [Fast First-Phase Candidate Generation](candi.md)
