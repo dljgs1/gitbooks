@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [文献翻译](chp1.md)
+* [2017-11](chp1.md)
     * [ML model that Remember too much](paper_MLmodelRemembertoomuch.md)
     * [Fast First-Phase Candidate Generation](candi.md)
+* [2018-2](chp2.md)
+	* [Large Scale Distributed Deep Networks](2012_largescaleDN.md)
