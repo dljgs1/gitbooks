@@ -155,10 +155,10 @@ GPU方法的一个已知限制是当模型不适合GPU存储器（通常小于6�
 
 我们发现的一项技术可以大大提高 Downpour SGD的稳健性，就是使用Adagrad [10]自适应学习速率程序。
 Adagrad并没有在参数服务器（图2中的η）上使用单一的固定学习速率，而是为每个参数使用单独的自适应学习速率。
-<img src="http://latex.codecogs.com/gif.latex?η_{i,K}" />为第K轮迭代中第i个参数的学习率，
-<img src="http://latex.codecogs.com/gif.latex?Δω_{i,k}" />
+<img src="http://latex.codecogs.com/gif.latex?\eta_{i,K}" />为第K轮迭代中第i个参数的学习率，
+<img src="http://latex.codecogs.com/gif.latex?\Delta\omega_{i,k}" />
 为梯度。
-设：<img src="http://latex.codecogs.com/gif.latex?η_{i,K} = γ/\sqrt{\sum_{j=1}^K{Δω_{i,k}^2}}" />
+设：<img src="http://latex.codecogs.com/gif.latex?\eta_{i,K}=\gamma/\sqrt{\sum_{j=1}^K{\Delta\omega_{i,k}^2}}" />
 因为这些学习速率只是从每个参数的平方梯度上计算出来的，所以Adagrad很容易在每个参数服务器分片中实现。
 γ的值（所有学习率的常数比例因子）通常比没有Adagrad的最佳固定学习率更大（可能是一个数量级）。
 Adagrad的使用扩展了可同时高效工作的模型副本的最大数量，并结合“热启动”模型训练的实践，
